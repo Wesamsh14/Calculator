@@ -1,0 +1,54 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+button {
+    float: none !important;
+}
+
+#box {
+    background: #005A31;
+    width: 40%;
+  
+}
+
+#results {
+    background: #CBE32D;
+    margin: 1%;
+    text-align: right;
+    font-size: 300%;
+}
+
+.buttons {
+    background: #A8CD1B;
+    margin: 1%;
+    text-align: center;
+    display: inline-block;
+    border: hidden;
+    border-radius: 20%;
+    font-size: 200%;
+    padding: 4%;
+}
+
+
+
+.buttons:active {
+    background: #005A99;
+}
+
+.operations {
+    background: #F3FAB6;
+}
+
+
+
+#row-container{
+    text-align: center;
+}
+
+#equals {
+    border: solid;
+    border-color: #092352;
+    border-width: 7px;
+}

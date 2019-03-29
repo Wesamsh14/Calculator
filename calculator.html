@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculator</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="calculatorCss.css">
+	</head>
+	<body>
+		 <div class="container-fluid" id="box">
+        <h1>JavaScript Calculator</h1>
+        <div id="results">0</div>
+        <div id="row-container">
+            <div class="row">
+                <button id="AC" class="buttons col-md-2 operations ">AC</button>
+                <button id="percent" class="buttons col-md-2 operations ">%</button>
+                <button id="subtract" class="buttons operations col-md-3 ">-</button>
+            </div>
+            <div class="row">
+                <button value="7" class="buttons col-md-2 ">7</button>
+                <button value="8" class="buttons col-md-2 ">8</button>
+                <button value="9" class="buttons col-md-2 ">9</button>
+                <button id="multiply" class="buttons operations col-md-3 ">x</button>
+            </div>
+            <div class="row">
+                <button value="4" class="buttons col-md-2 ">4</button>
+                <button value="5" class="buttons col-md-2 ">5</button>
+                <button value="6" class="buttons col-md-2 ">6</button>
+                <button id="divide" class="buttons operations col-md-3 ">/</button>
+            </div>
+            <div class="row">
+                <button value="1" class="buttons col-md-2 ">1</button>
+                <button value="2" class="buttons col-md-2 ">2</button>
+                <button value="3" class="buttons col-md-2 ">3</button>
+                <button id="add" class="buttons operations col-md-3 ">+</button>
+            </div>
+            <div class="row">
+                <button value="." class="buttons col-md-2 ">.</button>
+                <button value="0" class="buttons col-md-2 ">0</button>
+                <button id="equals" class="buttons col-md-3 operations ">=</button>
+            </div>
+        </div>
+    </div> 
+
+	<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+  	integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="calculator_Js.js"></script>	</body>
+</html>
