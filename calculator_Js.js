@@ -28,7 +28,6 @@ $(document).ready(function(){
                             pressed += val;
                         }
                 }
-                console.log(pressed);
                 break;
         }
         refreshDisplay();//for auto refresh for the result screen and show the numbers that have been pressed
@@ -40,7 +39,6 @@ $(document).ready(function(){
 // post: displays the most current equation or answer
 function refreshDisplay(){
     resultsScreen.html(pressed);
-    // console.log("Your current equation is " + pressed);
 }
 
 // post: calculates the answer;
