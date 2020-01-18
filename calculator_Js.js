@@ -19,9 +19,6 @@ $(document).ready(function(){
 
             default:
                 var val = $(this).attr("value");
-                console.log("You pressed " + val);
-
-
                 if (val == null) { // if its an operation
                         pressed += content;
                 } else {
