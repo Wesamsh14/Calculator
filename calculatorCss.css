@@ -1,3 +1,10 @@
+body {
+    margin: auto;
+    width: auto;
+    height: 60%;
+    background-color: silver;
+}
+
 h1 {
     text-align: center;
     color: white;
@@ -10,7 +17,12 @@ button {
 #box {
     background: #005A31;
     width: 40%;
-  
+    margin: 30px auto;
+    height: 440px;
+    padding: 10px;
+    -webkit-box-shadow: 1px 2px 10px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 10px 4px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 10px 4px rgba(0,0,0,0.75);
 }
 
 #results {
@@ -22,15 +34,19 @@ button {
 
 .buttons {
     background: #A8CD1B;
-    margin: 1%;
-    text-align: center;
-    display: inline-block;
     border: hidden;
     border-radius: 20%;
-    font-size: 200%;
+    font-size: 15px;
     padding: 4%;
+    margin-top: 20px;
 }
-
+.buttons:hover {
+    background-color: #F3FAB6;
+    /*border: dotted;*/
+    -webkit-box-shadow: 1px 2px 10px 3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 10px 3px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 10px 3px rgba(0,0,0,0.75)
+}
 
 
 .buttons:active {
@@ -43,10 +59,16 @@ button {
 
 
 
-#row-container{
+#container{
     text-align: center;
 }
-
+#container > div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 20px;
+    height: 55px;
+}
 #equals {
     border: solid;
     border-color: #092352;
