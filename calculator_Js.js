@@ -1,4 +1,4 @@
-var pressed = "0";
+var pressed = "000000";
 var resultsScreen = $("#results");
 var allButtons = $("button");
  
