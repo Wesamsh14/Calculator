@@ -1,2 +1,3 @@
 # Calculator
-Simple calculator by javascript
+Simple calculator with HTML, CSS, and Javascript.
+Year 2020
