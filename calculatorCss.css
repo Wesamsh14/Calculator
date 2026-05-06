@@ -2,12 +2,12 @@ body {
     margin: auto;
     width: auto;
     height: 60%;
-    background-color: silver;
+    background-color: rgb(34, 114, 144);
 }
 
 h1 {
     text-align: center;
-    color: white;
+    color: rgb(49, 46, 46);
 }
 
 button {
@@ -33,7 +33,7 @@ button {
 }
 
 .buttons {
-    background: #A8CD1B;
+    background: #e2e2e2;
     border: hidden;
     border-radius: 20%;
     font-size: 15px;
@@ -41,7 +41,7 @@ button {
     margin-top: 20px;
 }
 .buttons:hover {
-    background-color: #F3FAB6;
+    background-color: #1c1e0c;
     /*border: dotted;*/
     -webkit-box-shadow: 1px 2px 10px 3px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 2px 10px 3px rgba(0,0,0,0.75);
